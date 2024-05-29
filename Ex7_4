@@ -1,0 +1,19 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class simple1 {
+
+	public static void main(String[] args) {
+		Scanner scanner= new Scanner(System.in);
+		System.out.println("５人のテストの点数を入力してください。");
+		int[] a= new int[5];
+		int i;
+		for(i=0; i<5;i++) 
+		{a[i]=scanner.nextInt();}
+		for(i=0;i<5;i++) {
+			System.out.println((i+1)+"番目の人の点数は"+ a[i]+"です。");}
+		Arrays.sort(a);
+		System.out.println("最高の点数は"+ a[4]+"点です。");
+		scanner.close();
+		}
+}
