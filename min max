@@ -1,0 +1,29 @@
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class Ex07_2 {
+public static void main(String[] args) {
+	Scanner sc= new Scanner(System.in);
+	System.out.println("点数を入力してください。");
+	int[]a= new int[10];
+	for(int i=0;i<10;i++)
+	{a[i]= sc.nextInt();}
+//	Arrays.sort(a);
+//	System.out.println("最高の点数は"+a[9]+"点です");
+//	System.out.println("最低の点数は"+a[0]+"点です");
+//	int max=a[0];
+//	for(int i=0;i>a.length;i++)
+//	{
+//		if(a[i]>max) max=a[i];
+//	}
+//	System.out.println(max);
+//	int max=a[0];
+//	for (int i=0;i<a.length;i++)
+//	{
+//		max=Math.max(max, a[i]);
+//	}
+//	System.out.println(max);
+	
+sc.close();} 
+
+}
